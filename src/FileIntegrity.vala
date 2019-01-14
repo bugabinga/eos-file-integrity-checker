@@ -34,19 +34,19 @@ public class FileIntegrity: Gtk.Application
     var main_window = new Gtk.ApplicationWindow(this);
     main_window.default_width = 400;
     main_window.default_height = 350;
-    main_window.title = "Validate integrity of your files";
+    main_window.title = _("Validate integrity of your files");
 
-    var hello_btn = new Gtk.Button.with_label("Click me!");
+    var hello_btn = new Gtk.Button.with_label(_("Click me!"));
     hello_btn.margin = 32;
 
     hello_btn.clicked.connect(()=> {
       amount_of_clicks += 1;
 
-      var times = " times";
+      var times = _("times");
       if(amount_of_clicks == 1)
-        times = " time";
+        times = _("time");
 
-      hello_btn.label = "Clicked " + amount_of_clicks.to_string() + times;
+      hello_btn.label = _(@"Clicked $amount_of_clicks $times!");
     });
 
     main_window.add(hello_btn);
