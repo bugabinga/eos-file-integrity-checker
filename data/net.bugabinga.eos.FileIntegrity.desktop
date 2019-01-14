@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Validate files
+GenericName=File Integrity Validator
+Comment=Validates the integrity of your files
+Categories=Utility
+Exec=net.bugabinga.eos.FileIntegrity
+Icon=application-default-icon
+Terminal=false
+Type=Application
+Keywords=file;checksum;hash;md5;pgp;gpg;shasum;sha1;sha256;sha512

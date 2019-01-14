@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2019 Oliver Jan Krylow <oliver@bugabinga.net> -->
+<component type="desktop">
+  <id>net.bugabinga.eos.FileIntegrity</id>
+  <metadata_license>GPL3</metadata_license>
+  <name>File Integrity Checker</name>
+  <summary>Validate integrity of your files.</summary>
+  <description>
+    <p>Integrated file integrity validation for Elementary OS. This application provides a glance at all relevant means of validation of any file you wish.
+    <ul>
+      <li> checksums
+      <li> PGP
+    </ul>
+     Furthermore, the context-menu of the <em>Files</em> manager is extended to enable generation and validation of checksums.
+    Last but not least, files in your <b>~/Downloads</b> folder are automatically validated if an appropriate companion file is found.
+    Typically, providers of larger file downloads also provide a download of an additional file, containing some means of validation. Typically checksums or sometimes a PGP key.
+    Simply download these files additionally into your <b>~/Downloads</b> folder and the <em>File Integrity Checker</em> will show the validation result in your <em>Files</em> manager.</p>
+  </description>
+  <custom>
+     <value key="x-appcenter-color-primary">rgb(162,46,55)</value>
+     <value key="x-appcenter-color-primary-text">rgb(255, 255, 255)</value>
+     <value key="x-appcenter-suggested-price">15</value>
+  </custom>
+</component>
