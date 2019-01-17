@@ -6,15 +6,15 @@
   <name>File Integrity Checker</name>
   <summary>Validate integrity of your files.</summary>
   <description>
-    <p>Integrated file integrity validation for Elementary OS. This application provides a glance at all relevant means of validation of any file you wish.
+        <p>Integrated file integrity validation for Elementary OS. This application provides a glance at all relevant means of validation of any file you wish.</p>
     <ul>
-      <li> checksums
-      <li> PGP
+      <li>checksums</li>
+      <li>PGP</li>
     </ul>
-     Furthermore, the context-menu of the <em>Files</em> manager is extended to enable generation and validation of checksums.
-    Last but not least, files in your <b>~/Downloads</b> folder are automatically validated if an appropriate companion file is found.
-    Typically, providers of larger file downloads also provide a download of an additional file, containing some means of validation. Typically checksums or sometimes a PGP key.
-    Simply download these files additionally into your <b>~/Downloads</b> folder and the <em>File Integrity Checker</em> will show the validation result in your <em>Files</em> manager.</p>
+     <p>Furthermore, the context-menu of the <em>Files</em> manager is extended to enable generation and validation of checksums.</p>
+    <p>Last but not least, files in your <b>~/Downloads</b> folder are automatically validated if an appropriate companion file is found.
+    Typically, providers of larger file downloads also provide a download of an additional file, containing some means of validation. Typically checksums or sometimes a PGP key.</p>
+    <p>Simply download these files additionally into your <b>~/Downloads</b> folder and the <em>File Integrity Checker</em> will show the validation result in your <em>Files</em> manager.</p>
   </description>
   <custom>
      <value key="x-appcenter-color-primary">rgb(162,46,55)</value>
