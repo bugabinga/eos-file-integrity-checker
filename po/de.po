@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: net.bugabinga.eos.FileIntegrity\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-17 00:00+0100\n"
+"POT-Creation-Date: 2019-01-17 21:05+0100\n"
 "PO-Revision-Date: 2019-01-14 22:03+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -21,17 +21,22 @@ msgstr ""
 msgid "Validate integrity of your files"
 msgstr "Validiere die Integrität deiner Dateien"
 
-#: src/FileIntegrity.vala:39
+#: src/FileIntegrity.vala:42
 msgid "Click me!"
 msgstr "Klick mich!"
 
-#: src/FileIntegrity.vala:45
+#: src/FileIntegrity.vala:48
 msgid "times"
 msgstr "mal"
 
-#: src/FileIntegrity.vala:47
+#: src/FileIntegrity.vala:50
 msgid "time"
 msgstr "mal"
+
+#: src/FileIntegrity.vala:55
+#, fuzzy
+msgid "Click the label!"
+msgstr "Klick mich!"
 
 #: data/net.bugabinga.eos.FileIntegrity.desktop.in:3
 msgid "Validate files"

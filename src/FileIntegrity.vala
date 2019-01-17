@@ -30,26 +30,23 @@ public class FileIntegrity: Gtk.Application
   }
 
   protected override void activate(){
-    var amount_of_clicks = 0;
     var main_window = new Gtk.ApplicationWindow(this);
     main_window.default_width = 400;
     main_window.default_height = 350;
     main_window.title = _("Validate integrity of your files");
+    main_window.window_position = Gtk.WindowPosition.CENTER;
 
-    var hello_btn = new Gtk.Button.with_label(_("Click me!"));
-    hello_btn.margin = 32;
+    var scrollBox = new Gtk.ScrolledWindow(null,null);
+    main_window.add(scrollBox);
 
-    hello_btn.clicked.connect(()=> {
-      amount_of_clicks += 1;
+    var listBox = new Gtk.ListBox();
+    scrollBox.add(listBox);
 
-      var times = _("times");
-      if(amount_of_clicks == 1)
-        times = _("time");
+    //sample content to test list box
+    for(var i = 0; i < 1500; ++i){
+       listBox.add(new Gtk.Label(_(@"Element Nr. $i")));
+    }
 
-      hello_btn.label = _(@"Clicked $amount_of_clicks $times!");
-    });
-
-    main_window.add(hello_btn);
     main_window.show_all();
   }
 
