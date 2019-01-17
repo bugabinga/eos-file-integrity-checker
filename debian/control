@@ -1,0 +1,17 @@
+Source: net.bugabinga.eos.FileIntegrity
+Section: x11
+Priority: extra
+Maintainer: Oliver Jan Krylow <oliver@bugabinga.net>
+Build-Depends: debhelper (>= 10.5.1),
+               gettext,
+               libgtk-3-dev (>= 3.10),
+               meson
+               valac (>= 0.40.0)
+Standards-Version: 4.1.1
+
+Package: net.bugabinga.eos.FileIntegrity
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Checks the integrity of your files
+Checksums, PGP keys are common means to verify the integrity of large downloads.
+This application eases the process by integrating into elementary OS.
