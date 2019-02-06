@@ -10,8 +10,11 @@ add_global_arguments('-DGETTEXT_PACKAGE="@0@"'.format(meson.project_name()), lan
 executable(
     meson.project_name(),
     'src/FileIntegrity.vala',
-    dependencies: [
-        dependency('gtk+-3.0')
+    'src/WelcomeView.vala',
+    'src/AppState.vala',
+    /* dependencies: [ */
+        dependency('gtk+-3.0'),
+        dependency('granite')
     ],
     install: true
 )
